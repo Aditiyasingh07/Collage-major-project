@@ -70,7 +70,7 @@
         background-color: whitesmoke;
         padding: 20px;
         width: 90vw;
-        height: 250px;
+        height: 330px;
     }
     
     .write h1 {
@@ -87,7 +87,7 @@
     .work .work-container {
         display: flex;
         width: 100vw;
-        height: 65vh;
+        height: 95vh;
         flex-direction: column;
         background: #a9dbdf;
         clip-path: polygon(0% 0%, 100% 5%, 100% 95%, 0% 100%);
@@ -109,7 +109,7 @@
     /* Why Section  */
 .why {
     width: 98.8vw;
-    height: 95vh;
+    height: 135vh;
     margin-top: 20px;
     background-color: whitesmoke;
 }
@@ -167,7 +167,7 @@
 .maincontainerblog {
     display: flex;
     flex-direction: column;
-    height: 230vh;
+    height: 340vh;
     align-items: center;
     background-color: #D3E1E2;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -195,8 +195,8 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 98vw;
-    height: 26vh;
+    width: 100vw;
+    height: 39vh;
     justify-content: space-around;
     align-items: center;
 }
@@ -206,7 +206,7 @@ footer {
     height: 200px;
 }
 article{
-    height: 230vh;
+    height: 465vh;
 }
 article h1{
     margin: 30px 0 20px 0;
@@ -221,31 +221,51 @@ article h1{
     height: 200px;
 }
 .readmorepage1{
-    height: 250vh;
+    height: 490vh;
 }
 /* Readmore page3 */
 #readmore2{
     height: 200px;
 }
 .page3{
-    height: 225vh;
+    height: 460vh;
 }
 
 /* Form Page */
-.form1container{
+form {
+    border-radius: 20px;
+    box-shadow: 2px 10px 20px black;
+    height: 130vh;
+    background-color: #bddee0;
+    width: 100vw;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    font-size: 2rem;
     display: flex;
-    flex-direction: column;
-}
-.scraprate{
-    height: 175vh;
-    row-gap: 30px;
-    display: flex;
-    flex-direction: column;
-}
-.scraprate .subrate{
-    margin: 0;
     margin-top: 30px;
-    width: 350px;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input {
+    margin-top: 10px;
+    text-align: center;
+    height: 65px;
+    border-radius: 20px;
+    width: 250px;
+}
+
+::placeholder {
+    font-size: 1rem;
+    height: 150px;
+    font-weight: bolder;
+}
+.inter img {
+    position: absolute;
+    top: 35px;
+    right: 21px;
+    height: 110px;
+    width: 110px;
 }
 .btn .ratebtn {
     position: absolute;
@@ -257,23 +277,63 @@ article h1{
     font-size: 1rem;
     width: 200px;
     top: 0px;
+    transition: all .3s ease-in-out;
 }
-form{
-    width: 100vw;
-    margin: 0;
-    height: 85vh;
+
+.form1container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
 }
-.form1img{
+
+.form1img {
+    margin-left: 120px;
     display: none;
+    align-items: center;
 }
-.h h1{
-    margin-top: 30px;
-}
-form input {
-    margin-top: 10px;
+/* Rate Section */
+.scraprate {
+   display: flex;
+   flex-direction: column;
+    background-color: whitesmoke;
     text-align: center;
-    height: 45px;
-    border-radius: 20px;
-    width: 200px;
+    row-gap: 50px;
+    height: 250vh;
+    align-items: center;
+}
+
+.scraprate .subrate {
+    height: 200px;
+    margin-left: 0px;
+    width: 300px;
+    background-color: #def7fc;
+    box-shadow: 2px 10px 10px rgb(232, 146, 146);
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.scraprate .subrate:hover {
+    box-shadow: none;
+}
+
+.subrate p,
+h4 {
+    font-size: 1.5rem;
+}
+
+.sub img {
+    height: 100px;
+    width: 100px;
+}
+
+.h {
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #f32170,
+            #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 20px;
 }
 }
