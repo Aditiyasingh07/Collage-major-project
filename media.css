@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px){
     body{
-        background-color: brown;
+        background-color: whitesmoke;
         width: 100%;
     }
     nav {
@@ -40,7 +40,7 @@
         font-family: 'Cabin', sans-serif;
         right: 0px;
         height: 100px;
-        width: 200px;
+        width: 210px;
         top: 0px;
     }    
     .hero {
@@ -87,7 +87,7 @@
     .work .work-container {
         display: flex;
         width: 100vw;
-        height: 45vh;
+        height: 65vh;
         flex-direction: column;
         background: #a9dbdf;
         clip-path: polygon(0% 0%, 100% 5%, 100% 95%, 0% 100%);
@@ -106,21 +106,10 @@
         transition: all 0.2s ease-in-out;
     }
     
-    .work .work-box:hover {
-        box-shadow: 2px 2px 12px #95cdd0;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-    
-    .work .work-box h3 {
-        margin-top: 15px;
-        font-size: 1.8rem;
-    }
-    
     /* Why Section  */
 .why {
     width: 98.8vw;
-    height: 70vh;
+    height: 95vh;
     margin-top: 20px;
     background-color: whitesmoke;
 }
@@ -134,12 +123,8 @@
 .why .hd {
     padding-top: 30px;
 }
-
-.why .why-box h4 {
-    font-size: 1.8rem;
-}
-
     /*household*/
+
     .maincontainer {
         width: 100%;
         display: flex;
@@ -152,7 +137,7 @@
         padding: 0;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
         height: 500px;
         width: 100%;
     }
@@ -163,8 +148,11 @@
         color: rgb(77, 74, 74);
         height: 200px;
         margin: 0;
-        width: 400px;
+        width: 100vw;
         font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .subdiv h1{
         margin-top: 40px;
@@ -179,7 +167,7 @@
 .maincontainerblog {
     display: flex;
     flex-direction: column;
-    height: 170vh;
+    height: 230vh;
     align-items: center;
     background-color: #D3E1E2;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -200,7 +188,7 @@ footer {
     border-radius: 10px;
     background-image: linear-gradient(to right, rgb(244, 206, 206), grey);
     display: flex;
-    height: 420px;
+    height: 320px;
     justify-content: center;
 }
 .sectionone .contact {
@@ -213,4 +201,79 @@ footer {
     align-items: center;
 }
 
+/* Readmore page1 */
+#readmore{
+    height: 200px;
+}
+article{
+    height: 230vh;
+}
+article h1{
+    margin: 30px 0 20px 0;
+}
+.readmoreimg{
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+}
+/* Readmore page2 */
+#readmore1{
+    height: 200px;
+}
+.readmorepage1{
+    height: 250vh;
+}
+/* Readmore page3 */
+#readmore2{
+    height: 200px;
+}
+.page3{
+    height: 225vh;
+}
+
+/* Form Page */
+.form1container{
+    display: flex;
+    flex-direction: column;
+}
+.scraprate{
+    height: 175vh;
+    row-gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.scraprate .subrate{
+    margin: 0;
+    margin-top: 30px;
+    width: 350px;
+}
+.btn .ratebtn {
+    position: absolute;
+    font-family: 'Cabin', sans-serif;
+    right: 0px;
+    height: 70px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    width: 200px;
+    top: 0px;
+}
+form{
+    width: 100vw;
+    margin: 0;
+    height: 85vh;
+}
+.form1img{
+    display: none;
+}
+.h h1{
+    margin-top: 30px;
+}
+form input {
+    margin-top: 10px;
+    text-align: center;
+    height: 45px;
+    border-radius: 20px;
+    width: 200px;
+}
 }
