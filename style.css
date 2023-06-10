@@ -15,7 +15,6 @@
 
 html,
 body {
-    background-color: #b7d5c7;
     scroll-behavior: smooth;
 }
 
@@ -38,13 +37,15 @@ nav {
 }
 
 .navbar {
+    font-family: 'Anton', sans-serif;
     margin-left: -250px;
 }
 
 .navbar a {
     margin-left: 50px;
+    color: #464444;
     font-size: 2rem;
-    font-family: 'DynaPuff', cursive;
+    font-weight: bolder;
     transition: all .3s ease-in-out;
 }
 
@@ -62,6 +63,7 @@ nav {
     align-items: center;
     position: relative;
 }
+
 div.sell {
     position: absolute;
     font-family: 'Cabin', sans-serif;
@@ -70,6 +72,7 @@ div.sell {
     width: 200px;
     top: -35px;
 }
+
 div.sell button {
     background-color: var(--secondry);
     padding: 21px;
@@ -87,7 +90,7 @@ div.sell button:hover {
     color: var(--secondry);
 }
 
-.hero { 
+.hero {
     box-shadow: 5px 10px 20px black;
     background-image: url("./img/hero\ img.jpg");
     background-size: cover;
@@ -97,16 +100,16 @@ div.sell button:hover {
     height: 100vh;
     position: static;
     z-index: 0;
-   
+
 }
 
 .hero h1 {
     font-size: 3rem;
-    color: var(--text);
+    color: rgb(115, 0, 0);
 }
 
 .write {
-   box-shadow: 12PX 5PX 20PX #0e0e0e;
+    box-shadow: 12PX 5PX 20PX #0e0e0e;
     margin-top: 100px;
     margin-left: 370px;
     border-radius: 10px;
@@ -122,7 +125,7 @@ div.sell button:hover {
 .write p {
     font-size: 1.5rem;
     margin-top: 10px;
-    color: var(--text);
+    color: rgb(165, 16, 16);
 }
 
 .short-form {
@@ -185,6 +188,7 @@ div.sell button:hover {
     -webkit-background-clip: text;
     display: flex;
     justify-content: center;
+    font-family: sans-serif;
     font-size: 3rem;
     margin: 20px;
 }
@@ -254,6 +258,7 @@ div.sell button:hover {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     text-align: center;
+    font-family: sans-serif;
     font-size: 3rem;
     margin-top: 20px;
 }
@@ -275,7 +280,7 @@ div.sell button:hover {
 
 /* Households Section */
 .household {
-    background-color: #95cdd0;
+    background: linear-gradient(to right, white, #aed8db);
 }
 
 .maincontainer {
@@ -302,10 +307,6 @@ div.sell button:hover {
     font-size: 22px;
 }
 
-h1 {
-    margin-bottom: 20px;
-}
-
 .subdiv2 {
     margin-bottom: 50px;
     padding-left: 0px;
@@ -319,6 +320,8 @@ h1 {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-family: sans-serif;
+    padding-top: 50px;
+
 }
 
 .mainheading h1 {
@@ -396,6 +399,7 @@ h1 {
     -webkit-background-clip: text;
     text-align: center;
     margin-top: 70px;
+    font-family: sans-serif;
 }
 
 /* Footer Section */
@@ -440,6 +444,7 @@ footer {
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
+
 /* Readmore page 1 */
 article {
     line-height: 40px;
@@ -449,107 +454,126 @@ article {
     padding: 20px;
     font-size: 1.7rem;
 }
-article h1{
+
+article h1 {
     background: linear-gradient(to right, #f32170,
-    #ff6b08, #cf23cf, #eedd44);
--webkit-text-fill-color: transparent;
-font-family: 'Libre Baskerville', serif;
--webkit-background-clip: text;
-text-align: center;
+            #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    font-family: 'Libre Baskerville', serif;
+    -webkit-background-clip: text;
+    text-align: center;
 }
-article .readmoreimg{
+
+article .readmoreimg {
     display: flex;
     margin-bottom: 30px;
 }
+
 /* Readmore page 2 */
-article span{
+article span {
     color: blue;
 }
-article .readmore1 img{
+
+article .readmore1 img {
     border-radius: 150px;
 }
-.readmorepage1{
+
+.readmorepage1 {
     height: 190vh;
 }
+
 /* Form 1 */
-form{
-    /* border: 2px solid red; */
-    height: 130vh;
+form {
+    border-radius: 20px;
+    box-shadow: 2px 10px 20px black;
+    height: 150vh;
+    background-color: #bddee0;
     width: 50vw;
+    margin-bottom: 150px;
+    margin-left: 50px;
     font-size: 2rem;
     display: flex;
     margin-top: 30px;
     flex-direction: column;
     align-items: center;
 }
-form label{
+
+form label {
     margin-top: 20px;
 }
-form input{
+
+form input {
     margin-top: 10px;
     text-align: center;
-    height: 50px;
+    height: 45px;
     border-radius: 20px;
-    border: none;
     width: 500px;
 }
-::placeholder{
+
+::placeholder {
     font-size: 1rem;
-    background-color: whitesmoke;
-    height: 70px;
+    height: 150px;
     font-weight: bolder;
 }
-.cat{
+
+.cat {
     position: relative;
     display: flex;
-    /* border: 2px solid red; */
     justify-content: space-between;
     margin-top: 30px;
     width: 400px;
 }
-.inter input{
+
+.inter input {
     height: 20px;
     width: 20px;
 }
-.house input{
+
+.house input {
     height: 20px;
     width: 20px;
 }
-.cat .inter, .house{
+
+.cat .inter,
+.house {
     height: 150px;
     text-align: center;
     width: 150px;
-    /* border: 2px solid royalblue; */
 }
-.inter img{
+
+.inter img {
     position: absolute;
     top: 35px;
     right: 21px;
     height: 110px;
     width: 110px;
 }
-.house img{
+
+.house img {
     position: absolute;
     top: 10px;
     left: -5px;
     height: 150px;
     width: 150px;
 }
-form p{
+
+form p {
     margin-top: 40px;
 }
-form button{
+
+form button {
     width: 350px;
     height: 60px;
     margin: 50px 0;
     background: linear-gradient(to right, #f32170,
-    white);
+            white);
     font-size: 1.5rem;
     font-weight: bolder;
     border-radius: 30px;
     border: none;
-}   
-.btn .ratebtn{
+}
+
+.btn .ratebtn {
     position: absolute;
     font-family: 'Cabin', sans-serif;
     right: -150px;
@@ -561,37 +585,37 @@ form button{
     top: -35px;
     transition: all .3s ease-in-out;
 }
-.btn .ratebtn:hover{
+
+.btn .ratebtn:hover {
     background-color: var(--text);
     border: 2px solid var(--text);
     border-radius: 20px;
     color: var(--secondry);
 }
-.form1container{
-    /* border: 2px solid red; */
+
+.form1container {
     display: flex;
     background-color: white;
 }
-.form1img{
+
+.form1img {
     margin-left: 120px;
     display: flex;
-    /* border: 2px solid red; */
     align-items: center;
 }
+
 /* Rate Section */
-.scraprate{
- border: 2px solid red;
- display: grid;
- background-color: whitesmoke;
- text-align: center;
- grid-template-columns: 1fr 1fr 1fr 1fr;
- /* width: 900px; */
- column-gap: 50px;
- height: 600px;
- align-items: center;
+.scraprate {
+    display: grid;
+    background-color: whitesmoke;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    height: 600px;
+    align-items: center;
 }
-.scraprate .subrate{
-    /* border: 2px solid darkblue; */
+
+.scraprate .subrate {
     height: 200px;
     margin-left: 70px;
     width: 200px;
@@ -600,13 +624,28 @@ form button{
     transition: all .3s ease-in-out;
     cursor: pointer;
 }
-.scraprate .subrate:hover{
+
+.scraprate .subrate:hover {
     box-shadow: none;
 }
-.subrate p,h4{
+
+.subrate p,
+h4 {
     font-size: 1.5rem;
 }
-.sub img{
+
+.sub img {
     height: 100px;
     width: 100px;
+}
+
+.h {
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #f32170,
+            #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 20px;
 }
