@@ -1,0 +1,216 @@
+@media only screen and (max-width: 600px){
+    body{
+        background-color: brown;
+        width: 100%;
+    }
+    nav {
+        display: flex;
+        width: 100vw;
+        height: 300px;
+        flex-direction: column;
+        justify-content: space-around;
+        background-image: linear-gradient(to right, rgb(226, 223, 225), rgb(183, 172, 174));
+        padding-top: 5px;
+        align-items: center;
+        border-bottom: 5px solid red;
+    }
+    
+    .navbar {
+        width: 100vw;
+        font-family: 'Anton', sans-serif;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    .navbar a {
+        color: #464444;
+        font-size: 1.7rem;
+        margin: 0;
+        font-weight: bolder;
+        transition: all .3s ease-in-out;
+    }
+    .btn {
+        display: flex;
+        height: 70px;
+        width: 95vw;
+    }
+    
+    div.sell {
+        position: absolute;
+        font-family: 'Cabin', sans-serif;
+        right: 0px;
+        height: 100px;
+        width: 200px;
+        top: 0px;
+    }    
+    .hero {
+        box-shadow: 5px 10px 20px black;
+        background-image: url("./img/hero\ img.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        width: 100vw;
+        justify-content: space-around;
+        height: 100vh;
+        position: static;
+        z-index: 0;
+    
+    }
+    
+    .hero h1 {
+        font-size: 3rem;
+        color: rgb(115, 0, 0);
+    }
+    
+    .write {
+        margin: 20px 0 0 0; 
+        border: 2px solid;
+        box-shadow: 12PX 5PX 20PX #0e0e0e;
+        border-radius: 10px;
+        background-color: whitesmoke;
+        padding: 20px;
+        width: 90vw;
+        height: 250px;
+    }
+    
+    .write h1 {
+        text-shadow: 3px 1px 1px var(--text);
+    }
+    
+    .write p {
+        font-size: 1.5rem;
+        margin-top: 10px;
+        color: rgb(165, 16, 16);
+    }
+
+/* Work */
+    .work .work-container {
+        display: flex;
+        width: 100vw;
+        height: 45vh;
+        flex-direction: column;
+        background: #a9dbdf;
+        clip-path: polygon(0% 0%, 100% 5%, 100% 95%, 0% 100%);
+        align-items: center;
+    }
+    
+    .work .work-box {
+        width: 380px;
+        height: 200px;
+        background-color: white;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        transition: all 0.2s ease-in-out;
+    }
+    
+    .work .work-box:hover {
+        box-shadow: 2px 2px 12px #95cdd0;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .work .work-box h3 {
+        margin-top: 15px;
+        font-size: 1.8rem;
+    }
+    
+    /* Why Section  */
+.why {
+    width: 98.8vw;
+    height: 70vh;
+    margin-top: 20px;
+    background-color: whitesmoke;
+}
+
+.why .why-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.why .hd {
+    padding-top: 30px;
+}
+
+.why .why-box h4 {
+    font-size: 1.8rem;
+}
+
+    /*household*/
+    .maincontainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .insidediv {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 500px;
+        width: 100%;
+    }
+    
+    .subdiv {
+        margin: 0;
+        padding: 0;
+        color: rgb(77, 74, 74);
+        height: 200px;
+        margin: 0;
+        width: 400px;
+        font-size: 22px;
+    }
+    .subdiv h1{
+        margin-top: 40px;
+    }
+    .subdiv2 {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Blog Section */
+
+.maincontainerblog {
+    display: flex;
+    flex-direction: column;
+    height: 170vh;
+    align-items: center;
+    background-color: #D3E1E2;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.insidecontainerblog {
+    margin-top: 0px;
+    background-color: whitesmoke;
+    text-align: center;
+    width: 350px;
+    height: 850px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+/* footer section */
+footer {
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(244, 206, 206), grey);
+    display: flex;
+    height: 420px;
+    justify-content: center;
+}
+.sectionone .contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 98vw;
+    height: 26vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+}
