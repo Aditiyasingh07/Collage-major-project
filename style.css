@@ -549,6 +549,24 @@ form button{
     border-radius: 30px;
     border: none;
 }   
+.btn .ratebtn{
+    position: absolute;
+    font-family: 'Cabin', sans-serif;
+    right: -150px;
+    height: 70px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    width: 200px;
+    top: -35px;
+    transition: all .3s ease-in-out;
+}
+.btn .ratebtn:hover{
+    background-color: var(--text);
+    border: 2px solid var(--text);
+    border-radius: 20px;
+    color: var(--secondry);
+}
 .form1container{
     /* border: 2px solid red; */
     display: flex;

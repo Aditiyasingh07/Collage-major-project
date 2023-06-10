@@ -6,7 +6,7 @@ $email= $_POST['email'];
 $phone= $_POST['phone'];
 $pincode= $_POST['pincode'];
 $category= $_POST['cat'];
-$address= $_POST['address']
+$address= $_POST['address'];
 $to = "scrapwallha@gmail.com";
 $subject = "Mail From ScrapWallha";
 $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Phone =" . $phone . "\r\n Pincode =" .$pincode . "\r\n Category=" .$category . "\r\n Address=" .$address;
