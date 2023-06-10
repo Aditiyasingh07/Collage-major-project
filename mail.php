@@ -9,9 +9,9 @@ $category= $_POST['cat'];
 $address= $_POST['address'];
 $to = "scrapwallha@gmail.com";
 $subject = "Mail From ScrapWallha";
-$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Phone =" . $phone . "\r\n Pincode =" .$pincode . "\r\n Category=" .$category . "\r\n Address=" .$address;
-$headers = "From: noreply@yoursite.com" . "\r\n" .
-"CC: somebodyelse@example.com";
+$txt ="Name = ". $name . "\r\nEmail = " . $email . "\r\nPhone = " . $phone . "\r\nPincode = " .$pincode . "\r\nCategory = " .$cat . "\r\nAddress = " .$address;
+$headers = "From: adisingh20012110@gmail.com" . "\r\n" .
+"CC: adisingh20012110@gmail.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
