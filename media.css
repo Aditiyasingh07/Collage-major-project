@@ -24,8 +24,9 @@
         justify-content: space-around;
     }
     .navbar a {
+        text-decoration: none;
         color: #464444;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         margin: 0;
         font-weight: bolder;
         transition: all .3s ease-in-out;
@@ -60,7 +61,7 @@
     }
     
     .hero h1 {
-        font-size: 3rem;
+        font-size: 2rem;
         color: rgb(115, 0, 0);
     }
     
@@ -72,7 +73,7 @@
         background-color: whitesmoke;
         padding: 20px;
         width: 90vw;
-        height: 330px;
+        height: 250px;
     }
     
     .write h1 {
@@ -80,7 +81,7 @@
     }
     
     .write p {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin-top: 10px;
         color: rgb(165, 16, 16);
     }
@@ -110,10 +111,16 @@
         border-radius: 20px;
         transition: all 0.2s ease-in-out;
     }
-    
+    .work .hd {
+        font-size: 2rem;
+    }
+    .work .work-box h3 {
+        margin-top: 15px;
+        font-size: 1.3rem;
+    }
     /* Why Section  */
 .why {
-    width: 98.8vw;
+    width: 100%;
     height: 100%;
     margin-top: 20px;
     background-color: whitesmoke;
@@ -126,7 +133,11 @@
     justify-content: space-evenly;
 }
 .why .hd {
+    font-size: 2rem;
     padding-top: 30px;
+}
+.why .why-box h4 {
+    font-size: 1.5rem;
 }
     /*household*/
 
@@ -161,6 +172,10 @@
     }
     .subdiv h1{
         margin-top: 40px;
+        font-size: 1.5rem;
+    }
+    .mainheading h1 {
+        font-size: 2rem;
     }
     .subdiv2 {
         margin: 0;
@@ -180,7 +195,12 @@
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
     margin-top: 30px;
 }
-
+.maincontainerblog h3{
+    font-size: 1.5rem;
+}
+.hd h2 {
+    font-size: 2rem;
+}
 .insidecontainerblog {
     margin-top: 20px;
     background-color: whitesmoke;
@@ -215,9 +235,11 @@ footer {
 }
 article{
     height: 100%;
+    font-size: 1.2rem;
 }
 article h1{
     margin: 30px 0 20px 0;
+    font-size: 2rem;
 }
 .readmoreimg{
     display: flex;
@@ -246,7 +268,7 @@ article h1{
     height: 100%;
 }
 .img2 img{
-    height: 20px;
+    height: 200px;
     width: 250px;
 }
 
@@ -265,7 +287,9 @@ form {
     flex-direction: column;
     align-items: center;
 }
-
+form label {
+    font-size: 1.8rem;
+}
 form input {
     margin-top: 10px;
     text-align: center;
@@ -301,14 +325,20 @@ form input {
     height: 100%;
     align-items: center;
 }
-
+.h h1{
+    font-size: 2.3rem;
+}
 .scraprate .subrate {
     height: 200px;
+    /* font-size: 3.2rem; */
     margin-left: 0px;
     width: 300px;
     background-color: #def7fc;
     box-shadow: 2px 10px 10px rgb(232, 146, 146);
     transition: all .3s ease-in-out;
     cursor: pointer;
+}
+.scraprate p, h4{
+    font-size: 1.5rem;
 }
 }
