@@ -2,11 +2,12 @@
     body{
         background-color: whitesmoke;
         width: 100%;
+        /* height: 500vh; */
     }
     nav {
         display: flex;
         width: 100vw;
-        height: 300px;
+        /* height: 300px; */
         flex-direction: column;
         justify-content: space-around;
         background-image: linear-gradient(to right, rgb(226, 223, 225), rgb(183, 172, 174));
@@ -30,6 +31,7 @@
         transition: all .3s ease-in-out;
     }
     .btn {
+        margin-top: 30px;
         display: flex;
         height: 70px;
         width: 95vw;
@@ -85,21 +87,24 @@
 
 /* Work */
     .work .work-container {
+        display: block;
         display: flex;
         width: 100vw;
-        height: 95vh;
+        height: 100%;
+        padding: 30px 0;
         flex-direction: column;
         background: #a9dbdf;
-        clip-path: polygon(0% 0%, 100% 5%, 100% 95%, 0% 100%);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
         align-items: center;
+        row-gap: 30px;
     }
     
     .work .work-box {
         width: 380px;
         height: 200px;
         background-color: white;
-        margin-top: 0px;
         display: flex;
+        margin: 0;
         flex-direction: column;
         align-items: center;
         border-radius: 20px;
@@ -109,7 +114,7 @@
     /* Why Section  */
 .why {
     width: 98.8vw;
-    height: 135vh;
+    height: 100%;
     margin-top: 20px;
     background-color: whitesmoke;
 }
@@ -167,14 +172,17 @@
 .maincontainerblog {
     display: flex;
     flex-direction: column;
-    height: 340vh;
+    height: 100%;
+    row-gap: 50px;
+    padding: 50px 0;
     align-items: center;
     background-color: #D3E1E2;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    margin-top: 30px;
 }
 
 .insidecontainerblog {
-    margin-top: 0px;
+    margin-top: 20px;
     background-color: whitesmoke;
     text-align: center;
     width: 350px;
@@ -188,7 +196,7 @@ footer {
     border-radius: 10px;
     background-image: linear-gradient(to right, rgb(244, 206, 206), grey);
     display: flex;
-    height: 320px;
+    height: 100%;
     justify-content: center;
 }
 .sectionone .contact {
@@ -206,43 +214,54 @@ footer {
     height: 200px;
 }
 article{
-    height: 465vh;
+    height: 100%;
 }
 article h1{
     margin: 30px 0 20px 0;
 }
 .readmoreimg{
-    width: 95vw;
     display: flex;
     justify-content: center;
+}
+.readmoreimg img{
+    height: 150px;
+    width: 250px;
 }
 /* Readmore page2 */
 #readmore1{
     height: 200px;
 }
 .readmorepage1{
-    height: 490vh;
+    height: 100%;
+}
+.readmore1 img{
+    height: 150px;
+    width: 200px;
 }
 /* Readmore page3 */
 #readmore2{
     height: 200px;
 }
 .page3{
-    height: 460vh;
+    height: 100%;
+}
+.img2 img{
+    height: 20px;
+    width: 250px;
 }
 
 /* Form Page */
 form {
     border-radius: 20px;
     box-shadow: 2px 10px 20px black;
-    height: 130vh;
+    height: 100%;
     background-color: #bddee0;
-    width: 100vw;
+    width: 100%;
     margin-bottom: 50px;
     margin-left: 0px;
     font-size: 2rem;
     display: flex;
-    margin-top: 30px;
+    margin-top: 0px;
     flex-direction: column;
     align-items: center;
 }
@@ -253,19 +272,6 @@ form input {
     height: 65px;
     border-radius: 20px;
     width: 250px;
-}
-
-::placeholder {
-    font-size: 1rem;
-    height: 150px;
-    font-weight: bolder;
-}
-.inter img {
-    position: absolute;
-    top: 35px;
-    right: 21px;
-    height: 110px;
-    width: 110px;
 }
 .btn .ratebtn {
     position: absolute;
@@ -279,15 +285,8 @@ form input {
     top: 0px;
     transition: all .3s ease-in-out;
 }
-
-.form1container {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-}
-
 .form1img {
-    margin-left: 120px;
+    margin-left: 0px;
     display: none;
     align-items: center;
 }
@@ -298,7 +297,8 @@ form input {
     background-color: whitesmoke;
     text-align: center;
     row-gap: 50px;
-    height: 250vh;
+    padding: 30px 0;
+    height: 100%;
     align-items: center;
 }
 
@@ -310,30 +310,5 @@ form input {
     box-shadow: 2px 10px 10px rgb(232, 146, 146);
     transition: all .3s ease-in-out;
     cursor: pointer;
-}
-
-.scraprate .subrate:hover {
-    box-shadow: none;
-}
-
-.subrate p,
-h4 {
-    font-size: 1.5rem;
-}
-
-.sub img {
-    height: 100px;
-    width: 100px;
-}
-
-.h {
-    text-align: center;
-    font-size: 2rem;
-    font-family: sans-serif;
-    background: linear-gradient(to right, #f32170,
-            #ff6b08, #cf23cf, #eedd44);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    margin-bottom: 20px;
 }
 }
