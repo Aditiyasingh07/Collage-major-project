@@ -101,7 +101,7 @@
     }
     
     .work .work-box {
-        width: 100%;
+        width: 60%;
         height: 200px;
         background-color: white;
         display: flex;
@@ -131,6 +131,10 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
+}
+.why .why-box{
+    width: 60%;
+    padding: 0px 15px;
 }
 .why .hd {
     font-size: 2rem;
@@ -321,7 +325,6 @@ form button {
 .scraprate {
    display: flex;
    flex-direction: column;
-    background-color: whitesmoke;
     text-align: center;
     row-gap: 50px;
     padding: 30px 0;
@@ -336,7 +339,7 @@ form button {
     height: 200px;
     margin-left: 0px;
     border-radius: 20px;
-    width: 300px;
+    width: 60%;
     background-color: #def7fc;
     box-shadow: 2px 10px 10px rgb(232, 146, 146);
     transition: all .3s ease-in-out;
