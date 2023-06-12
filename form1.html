@@ -43,19 +43,26 @@
 
         <label for="mail">Email - </label>
         <input type="email" name="mail" id="mail" placeholder="Entre email" required>
+        
+        <label for="apt">Apartment, Room no. - </label>
+        <input type="text" name="apt" required id="apt" placeholder="Enter apartment or room no.">
 
-        <label for="address">Address</label>
-        <input type="text" name="address" placeholder="Enter your address" id="address" required>
+        <label for="city">City - </label>
+        <input type="text" name="city" id="city" required placeholder="City">
+
+        <label for="address">Address - </label>
+        <textarea name="address" id="address" cols="30" required rows="10" placeholder="Enter address"></textarea>
+
         <p>Category</p>
         <div class="cat">
             <div class="house">
-                <input type="checkbox" id="house" checked name="cat">
+                <input type="checkbox" id="house" checked name="cat" value="house">
                 <label for="house"> 
                     <img src="./img/house.png" alt="">
                 </label>
             </div>
             <div class="inter">
-                <input type="checkbox" id="inter" name="cat">
+                <input type="checkbox" id="inter" name="cat" value="inter">
                 <label for="inter">
                     <img src="./img/inter.png" alt="">
                 </label>
