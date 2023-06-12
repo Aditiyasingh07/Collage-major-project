@@ -102,14 +102,19 @@
     
     .work .work-box {
         width: 60%;
-        height: 200px;
+        height: 100%;
         background-color: white;
         display: flex;
         margin: 0;
+        text-align: center;
         flex-direction: column;
         align-items: center;
         border-radius: 20px;
         transition: all 0.2s ease-in-out;
+    }
+    .work-box img{
+        height: 100px;
+        width: 120px;
     }
     .work .hd {
         font-size: 2rem;
@@ -134,7 +139,8 @@
 }
 .why .why-box{
     width: 60%;
-    padding: 0px 15px;
+    height: 100%;
+    padding: 20px 15px;
 }
 .why .hd {
     font-size: 2rem;
@@ -155,6 +161,7 @@
     .insidediv {
         margin: 0;
         padding: 0;
+        text-align: center;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -209,10 +216,13 @@
     margin-top: 20px;
     background-color: whitesmoke;
     text-align: center;
-    width: 350px;
+    width: 100%;
     height: 850px;
     border-radius: 20px;
     font-size: 20px;
+}
+.insidecontainerblog img{
+    width: 100%;
 }
 
 /* footer section */
@@ -239,6 +249,7 @@ footer {
 }
 article{
     height: 100%;
+    text-align: center;
     font-size: 1.2rem;
 }
 article h1{
