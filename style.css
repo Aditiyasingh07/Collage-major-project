@@ -20,10 +20,9 @@ body {
 nav {
     display: flex;
     justify-content: space-around;
-    background-image: linear-gradient(to right, rgb(226, 223, 225), rgb(183, 172, 174));
+    background-image: linear-gradient(to right, #bdc3c7 , #2c3e50);
     padding-top: 5px;
     align-items: center;
-    border-bottom: 5px solid red;
 }
 
 .navbar {
@@ -33,15 +32,15 @@ nav {
 
 .navbar a {
     margin-left: 50px;
-    color: #464444;
+    color: #171717;
     font-size: 2rem;
     font-weight: bolder;
     transition: all .3s ease-in-out;
 }
 
 .navbar a:hover {
-    color: red;
-    border-bottom: 5px solid yellowgreen;
+    color: #464444;
+    border-bottom: 5px solid rgb(178, 178, 178);
 }
 
 .navbar a:active {
@@ -83,11 +82,11 @@ div.sell button:hover {
 .hero {
     box-shadow: 5px 10px 20px black;
     background-image: url("./img/hero\ img.jpg");
-    background-size: cover;
+    background-size: 100% 110%;
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-around;
-    height: 100vh;
+    height: 130vh;
     position: static;
     z-index: 0;
 

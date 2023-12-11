@@ -44,7 +44,7 @@
         width: 210px;
         top: 0px;
     }    
-    .hero {
+    .hero { 
         box-shadow: 5px 10px 20px black;
         background-image: url("./img/hero\ img.jpg");
         background-size: cover;

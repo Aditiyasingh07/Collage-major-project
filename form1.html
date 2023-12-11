@@ -30,8 +30,8 @@
             </div>
         </nav>
 <div class="form1container">
-    <form action="https://formspree.io/f/meqwbwby"
-    method="POST" id="form">
+    <!-- action="https://formspree.io/f/meqwbwby -->
+    <form id="form" onsubmit="sendmail()" reset(); return false;>
         <label for="name">Name - </label>
         <input type="text" placeholder="Enter your name" name="name" id="name" required>
 
@@ -56,19 +56,19 @@
         <p>Category</p>
         <div class="cat">
             <div class="house">
-                <input type="checkbox" id="house" checked name="cat" value="house">
+                <input type="checkbox" id="ad" checked name="cat" value="house">
                 <label for="house"> 
                     <img src="./img/house.png" alt="">
                 </label>
             </div>
             <div class="inter">
-                <input type="checkbox" id="inter" name="cat" value="inter">
+                <input type="checkbox" id="ad" name="cat" value="inter">
                 <label for="inter">
                     <img src="./img/inter.png" alt="">
                 </label>
             </div>
         </div>
-        <button type="submit">Schedule</button>
+        <button type="submit" id="send">Schedule</button>
     </form>
     <div class="form1img">
         <img src="./img/Doc1.jpg" alt="" width="450px">
@@ -149,5 +149,7 @@
                 </div>
             </div>
         </footer>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="./main.js"></script>
 </body>
 </html>
