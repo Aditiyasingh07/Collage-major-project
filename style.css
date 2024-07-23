@@ -20,7 +20,7 @@ body {
 nav {
     display: flex;
     justify-content: space-around;
-    background-image: linear-gradient(to right, #bdc3c7 , #2c3e50);
+/*     background-image: linear-gradient(to right, #bdc3c7 , #2c3e50); */
     padding-top: 5px;
     align-items: center;
 }
