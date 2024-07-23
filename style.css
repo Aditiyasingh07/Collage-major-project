@@ -34,6 +34,7 @@ nav {
     margin-left: 50px;
     color: #171717;
     font-size: 2rem;
+    text-decoration: none;
     font-weight: bolder;
     transition: all .3s ease-in-out;
 }
