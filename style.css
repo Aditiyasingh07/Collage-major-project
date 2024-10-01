@@ -401,13 +401,12 @@ footer {
 
 .footer {
     display: flex;
-    width: 700px;
-    justify-content: space-around;
+    width: 100vw;
 }
 
 .sectionone .contact {
     display: flex;
-    width: 98vw;
+    width: 98.9vw;
     height: 26vh;
     justify-content: space-around;
     align-items: center;
