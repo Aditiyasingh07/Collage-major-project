@@ -34,6 +34,7 @@ nav {
     margin-left: 50px;
     color: #171717;
     font-size: 2rem;
+    text-decoration: none;
     font-weight: bolder;
     transition: all .3s ease-in-out;
 }
@@ -56,7 +57,7 @@ nav {
 div.sell {
     position: absolute;
     font-family: 'Cabin', sans-serif;
-    right: -150px;
+    left: 10px;
     height: 100px;
     width: 200px;
     top: -35px;
